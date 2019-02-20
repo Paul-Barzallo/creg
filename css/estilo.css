@@ -1,0 +1,31 @@
+.btn-auth {
+    margin-right: 15px;
+    float: right;
+}
+.navbar-header{
+    float: left;
+}
+.navbar-right~.navbar-right{
+    margin-right: 15px;
+}
+.navbar-brand {
+    font-weight: bold;
+}   
+.navbar-inverse{
+    border-radius: 0px;
+}
+.btn-lg{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.datos{
+    padding-left: 0px;
+}
+.grafico{
+    margin-bottom: 40px;
+}
+.tabla-mensaje{
+    font-size: 16px;
+    text-align: center;
+}

@@ -20,7 +20,7 @@ abre por defecto en el puerto 8000, si puede añadir **:xxx** donde las x es el 
 como se usa la API de GMAIl se necesita credenciales para ejecutar la aplicación, por defecto están las mías pero si se quiere cambiar para administrarlo desde otro usuario de google se puede, esto es necesario para ejecutarlo en un servidor que no sea el localhost ya que se necesita permisos de **Orígenes de JavaScript autorizados** para ejecutar y solo tengo autorizado a localhost:8000 y localhost:8080
 para administrar la API se necesita crear un proyecto en https://console.developers.google.com, generar unas credenciales y luego solo se cambia el clientId por el propio en la primera linea del archivo **/js/apiGmail.js**
 ```JavaScript
-var CLIENT_ID = credencial;
+var CLIENT_ID = "credencial";
 ```
 
 ## Creado con
